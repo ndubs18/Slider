@@ -1,0 +1,26 @@
+.slider {
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slider h2 {
+    background: black;
+    color: white;
+    text-align: center
+}
+
+.slider img {
+    width: 60%;
+    height: 600px;
+    transition: transform 1s ease-in-out;
+
+}
+
+.slider img {
+    transform: from(opacity=0)
+    to(opacity=1)
+    
+}
+
